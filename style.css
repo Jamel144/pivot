@@ -1,8 +1,21 @@
-main {
-    background-color: palevioletred;
+#topbread{
+    position: inherit;
+    border: 10px dotted red;
 }
 
-div{
-    background-color: greenyellow;
+main {
+    background-color: beige;
+    margin: 10%;
+    border: 10px solid goldenrod; 
+    padding: 15px;
+}
+
+#subt {
+    background-color: rgb(121, 8, 144);
     width: 50%;
+}
+
+img{
+    position:inherit;
+
 }
