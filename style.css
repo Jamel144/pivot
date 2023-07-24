@@ -1,21 +1,68 @@
-#topbread{
-    position: inherit;
-    border: 10px dotted red;
+*.topbread{
+    width: 300px;
+    height: 500px;
+}
+
+body{
+    background-color: bisque;
+}
+
+.breadd{
+    width: 750px;
+    height:400px;
+    margin-bottom: 5%;
+    display: block;
+    margin-left: 25%;
 }
 
 main {
     background-color: beige;
-    margin: 10%;
     border: 10px solid goldenrod; 
     padding: 15px;
+    border-radius: 25px;
 }
 
 #subt {
-    background-color: rgb(121, 8, 144);
-    width: 50%;
+    background-color:rgb(111, 62, 31);
+    width:fit-content;
+    color: white;
 }
 
 img{
     position:inherit;
 
+}
+
+
+*ul li{
+    display: block;
+    padding: 10px 15px;
+}
+
+.box{
+    border: 5px solid red;
+    padding: 10px;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(59, 36, 2);
+    color: white;
+}
+.flexbox{
+    display: flex;
+}
+
+.flex-container{
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    display: flex;
+    padding: 30px;
+}
+
+.flex-container div{
+    width: 20%;
+    border: 5px solid goldenrod;
+    text-align: center;
+    margin: 20px;
+    display: block;
 }

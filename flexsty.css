@@ -1,0 +1,12 @@
+.flex-container{
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    display: flex;
+}
+
+.flex-container div{
+    width: 20%;
+    border: 3px solid white;
+    text-align: center;
+    margin: 10px;
+}
