@@ -94,6 +94,83 @@ else
 
 */
 
-for ( let i = 1; i<9; i++){
-    console.log("This works fine")
+//Home work loops
+
+/*
+for ( let i = 1; i<=100; i++){
+
+ if (i%3===0 && i%5 ===0){
+    console.log("FIZZBUZZ")
+    }
+    else if (i%3 === 0){
+        console.log("FIZZ")
+    }
+    else if (i%5 === 0){
+        console.log("BUZZ")
+    }
+    else{
+        console.log(i)
+    }
+    
+    
 }
+
+*/
+
+// Functions
+
+function newAgain(DJ,CLUB) {
+    console.log(DJ)
+    console.log(CLUB)
+}
+
+function grader(result){
+    
+    if(result >=90){
+        console.log("Grade: A*") }
+ else if (result >=80){
+    console.log("Grade A")
+ }       
+ else if (result >=70){
+    console.log("Grade B")
+ }
+
+else if(result >=60){
+    console.log( "Grade C")
+}
+else if (result<60){ 
+console.log("Fail retest needed")
+}
+else { 
+console.log("error")
+}
+
+}
+
+
+
+var score =mult(5,5)
+
+function mult(num1, num2){
+    ans = num1*num2
+    return ans
+}
+
+function addition(num){
+    var answer = mult(5,5)
+    console.log(answer+num)
+}
+// Celsius to fahrenheit  -- (0°C × 9/5) + 32 = 32°F
+
+function celsius(C) {
+cel = C*9/5+32
+return cel
+    
+}
+
+function fahrenheit(){
+    var far = celsius(0)
+    console.log(cel)
+}
+
+fahrenheit()
